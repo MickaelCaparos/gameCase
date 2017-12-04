@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"
+  <head>
+    <meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="container">
+      <form>
+        <div class="form-group row has-success">
+             <div class="col-sm-10">
+
+
+    <!--Debut du formulaire!-->
+        <!--Nombre de case limite de case "10"!-->
+<label for="squareNb">Choix du nombre de case</label>
+<input id="squareNb" type="number" min="3" max="10" onkeypress="retourfalse" name="nbDeCase" value="">
+
+
+
+    <!--Temps de jeux affiche que les secondes!-->
+<label for="secNb ">Choix du temps de jeux </label>
+<input id="secNb " type="time" min="00:00" max="00:60"  name="tempsDeJeux" value="">
+
+    <!--Le bouton go pour lancez la partie !-->
+<label for="goGame">Lancez la partie ! </label>
+<input id="goGame" type="submit" name="Go" value="Go">
+
+    <!--l'affichage du score du jouer qui doit evoluer avec les differente partie jouer !-->
+<label for="scrorejoueur"> Voici votre score ! </label>
+<input id="scrorejoueur" type="number" name="scrorejoueur" value="">
+
+<label for="roundsNb">Votre nombre de partie</label>
+<input id="roundsNb" type="number" name="" value="">
+
+    <!--bouton record qui affiche le meilleur score du joueur! -->
+    <label for="recordGame">Votre meilleur score !</label>
+    <input id="recordGame" type="number" name="recordJoueur" value="">
+<!--fin du formulaire!-->
+</form>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+  </body>
+</html>
